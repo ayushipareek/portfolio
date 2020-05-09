@@ -1,0 +1,25 @@
+body{
+	background-color: salmon;
+}
+h1{
+	font-size: 12px;
+	color: black;
+	font-family: sans-serif;
+}
+.big{
+	font-size: 50px
+}
+.uppercase{
+	text-transform: uppercase;
+
+}
+.big.uppercase{
+	color: navy
+}
+span{
+	color: violet;
+}
+h2{
+	font-size: 30px; 
+	color: salmon;
+}
