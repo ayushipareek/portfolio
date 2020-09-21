@@ -1,8 +1,16 @@
 version = 1
 
 [[analyzers]]
-name = "python"
+name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  runtime_version = "3.x.x"
+  module_system = "amd"
+  environment = [
+    "nodejs",
+    "jquery",
+    "mongo"
+  ]
+  plugins = ["vue"]
+  style_guide = "standard"
+  dialect = "typescript"
